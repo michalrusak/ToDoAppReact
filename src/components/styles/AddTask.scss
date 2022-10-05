@@ -1,0 +1,25 @@
+.add-input, .add-btn{
+    margin: 10px;
+    border: 2px solid gray;
+    font-size: 20px;
+}
+.add-btn{
+    padding: 0 35px;
+    height: 54px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.add-input{
+    height: 50px;
+    width: 300px;
+}
+
+.add-btn:hover{
+    background-color: #999;
+}
+.break{
+    margin: 10px;
+    width: 100%;
+    border-bottom: 2px solid black;
+}
