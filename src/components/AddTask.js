@@ -16,7 +16,6 @@ class AddTask extends Component {
         const text = this.state.value;
         if(text){
         const add = this.props.addTask(text);
-        console.log('add'+ add);
         
         if (add) {
          this.setState({

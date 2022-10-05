@@ -11,7 +11,6 @@ class App extends Component {
     } 
 
     addTask = (text) => {
-      console.log(text);
       let tasks = [...this.state.tasks];
       const id = tasks.length+1;
       const task = {id: id, task: text, active: true};
